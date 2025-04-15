@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+    margin: 10% 15%;
+    border-radius: 8px;
+}
+
+.devboar__cartao {
+    background-color: #F6A347;
+    width: 360px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 0px #00000042;
+}
+
+.devboard__cartao__conteudo {
+    width: 340px;
+    height: 500px;
+    background-image: url("./Assents/Iza_power.png");
+    border-radius: 16px;
+    border: #ffffff solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.devboard__cartao__conteudo__dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: radial-gradient(#c300ffa9, #e52e93b6);
+    border-radius: 0 0 16px 16px;
+}
+
+.devboard__cartao__conteudo__redes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.devboard__cartao__conteudo__dados__nome {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 2px 3px hsla(0deg, 0%, 0%, 0.25);
+    padding-left: 16px;
+}
+
+.devboard__cartao__conteudo__gif {
+    width: 30%;
+    height: auto;
+    border-radius: 0 0 16px 16px;
+}
+
+.social-media {
+    box-shadow: #6d6d6d59 5px 5px 10px 5px;
+}
+
